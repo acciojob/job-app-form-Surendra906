@@ -4,39 +4,52 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <form method="POST">
+
         <label for="name">Name</label>
-        <input type="text" id="name" required>
+        <input type="text" id="name" name="name" required>
         <br>
+
         <label for="email">Email</label>
-        <input type="email" id="email" required>
+        <input type="email" id="email" name="email" required>
         <br>
+
         <label for="gender_m">Male</label>
         <input type="radio" id="gender_m" name="gender" value="male" required>
+
         <label for="gender_f">Female</label>
         <input type="radio" id="gender_f" name="gender" value="female" required>
         <br>
+
         <label for="laptop">Laptop Brands</label>
-        <select id="laptop">
+        <select id="laptop" name="laptop">
             <option value="apple">Apple</option>
             <option value="asus">Asus</option>
             <option value="hp">HP</option>
         </select>
         <br>
+
         <label for="age">Age</label>
-        <input type="number" id="age" required>
+        <input type="number" id="age" name="age" required>
         <br>
+
         <label for="dob">Date of Birth</label>
-        <input type="date" id="dob" required>
+        <input type="date" id="dob" name="dob" required>
         <br>
+
         <label for="password">Password</label>
-        <input type="password" id="password" required>
+        <input type="password" id="password" name="password" required>
         <br>
+
         <label for="portfolio">Portfolio URL</label>
-        <input type="url" id="portfolio" >
+        <input type="url" id="portfolio" name="portfolio" required>
         <br>
+
         <button type="submit">Submit</button>
+
     </form>
+
     <script type="text/javascript" src="./script.js"></script>
 </body>
 </html>
